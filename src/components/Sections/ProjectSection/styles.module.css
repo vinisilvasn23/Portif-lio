@@ -1,0 +1,23 @@
+.section__project {
+  width: 70%;
+  margin-top: 5.625rem;
+  display: flex;
+  flex-direction: column;
+}
+.section__project h2 {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-5);
+}
+.section__project ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.875rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+@media (max-width: 350px) {
+  .section__project {
+    width: 90%;
+  }
+}

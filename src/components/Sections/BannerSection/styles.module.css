@@ -1,0 +1,39 @@
+.section__banner {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.section__banner img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 3.9375rem;
+}
+.user__name {
+  color: var(--color-primary);
+  font-family: var(--font-secundary);
+  font-weight: var(--font-weight-1);
+}
+.section__banner h2 {
+  max-width: 20rem;
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-5);
+  line-height: 3.625rem;
+}
+.text__phrase {
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-1);
+  margin-bottom: 2.1875rem;
+}
+@media (min-width: 768px) {
+  .section__banner {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .section__banner {
+    width: 90%;
+  }
+}

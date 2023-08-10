@@ -1,0 +1,12 @@
+button {
+  width: 8.125rem;
+  height: 2.4375rem;
+  background-color: var(--color-primary);
+  border-radius: 0.75rem;
+  color: var(--color-white);
+  font-size: var(--font-size-1);
+  font-weight: var(--font-weight-3);
+}
+button:hover {
+  background-color: var(--color-primary-hover);
+}

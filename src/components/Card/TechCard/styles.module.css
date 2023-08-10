@@ -1,0 +1,19 @@
+.tech__card {
+  display: flex;
+  width: 17.9375rem;
+  height: 5.375rem;
+  border: .125rem solid var(--color-border);
+  border-radius: 1.5625rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tech__card img {
+  width: 10%;
+  object-fit: contain;
+  margin: 0 2rem;
+}
+.tech__card h3 {
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-5);
+}
